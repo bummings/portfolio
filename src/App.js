@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <h1>I noticed yr localhost is movin slow as hell</h1>
+        <h1>Hm, that might have something to do with it</h1>
       </div>
     );
   }
