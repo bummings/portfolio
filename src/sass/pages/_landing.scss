@@ -1,5 +1,9 @@
 .landing {
-  height: 50vh;
   background-color: black;
-  color: pink;
+  color: $color-dark-blue;
+
+  &__header {
+    margin: 0;
+    padding: 0;
+  }
 }
