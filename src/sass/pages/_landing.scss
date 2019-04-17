@@ -1,9 +1,9 @@
 .landing {
-  background-color: black;
-  color: $color-dark-blue;
+  background-color: $color-dark-blue;
+  height: 100vh;
+  font-family: $font-ibm;
 
   &__header {
     margin: 0;
-    padding: 0;
   }
 }
