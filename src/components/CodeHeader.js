@@ -2,7 +2,12 @@ import React, { Component } from 'react';
 
 class CodeHeader extends Component {
   render() {
-    return <div>bruh!</div>;
+    return (
+      <div className='landing'>
+        <code>const name = 'edd burke';</code>
+        <pre>{`<Intro>Hi! I'm {name}.</Intro>`}</pre>
+      </div>
+    );
   }
 }
 
