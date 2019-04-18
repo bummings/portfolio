@@ -3,7 +3,41 @@
   height: 100vh;
   font-family: $font-ibm;
 
+  // yo wtf
   &__header {
     margin: 0;
   }
+
+  &__code {
+    font-size: 4.5rem;
+  }
+}
+
+.keyword {
+  color: $color-code-keyword;
+}
+
+.variable {
+  color: $color-code-text;
+  font-style: italic;
+}
+
+.equal {
+  color: $color-code-equal;
+}
+
+.definition {
+  color: $color-code-definition;
+}
+
+.text {
+  color: $color-code-text;
+}
+
+.bracket {
+  color: $color-code-bracket;
+}
+
+.element {
+  color: $color-code-element;
 }
