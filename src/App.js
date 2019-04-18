@@ -8,7 +8,6 @@ class App extends Component {
     return (
       <div className='App'>
         <div className='landing'>
-          <h1 className='landing__header'>Install SASS structure</h1>
           <CodeHeader />
         </div>
       </div>

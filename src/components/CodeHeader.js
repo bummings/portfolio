@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 let leftBracket = '<';
 let rightBracket = '>';
+let leftBracketEnd = '</';
 let leftCurly = '{';
 let rightCurly = '}';
 
@@ -20,7 +21,12 @@ class CodeHeader extends Component {
           <span className='element'>intro</span>
           <span className='bracket'>{rightBracket}</span>
           <span className='text'>Hi! My name is </span>
-          <span className='bracket' />
+          <span className='bracket'>{leftCurly}</span>
+          <span className='variable'>name</span>
+          <span className='bracket'>{rightCurly}</span>
+          <span className='bracket'>{leftBracketEnd}</span>
+          <span className='element'>intro</span>
+          <span className='bracket'>{rightBracket}</span>
         </h1>
         {/* <pre>{`<Intro>Hi! I'm {name}.</Intro>`}</pre> */}
       </div>

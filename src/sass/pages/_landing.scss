@@ -2,15 +2,12 @@
   background-color: $color-code-background;
   height: 100vh;
   font-family: $font-ibm;
-
-  // yo wtf
-  &__header {
-    margin: 0;
-  }
+  margin: 0;
 
   &__code {
     font-size: 4.5rem;
     font-weight: 100;
+    margin: 0;
   }
 }
 
