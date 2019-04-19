@@ -1,4 +1,7 @@
 .landing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background-color: $color-code-background;
   height: 100vh;
   font-family: $font-ibm;
@@ -6,6 +9,7 @@
   padding: 2rem 1rem;
 
   &__code {
+    padding: 0 9rem;
     font-size: 4.1rem;
     font-weight: 100;
     margin: 0;
