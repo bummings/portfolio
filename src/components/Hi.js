@@ -4,7 +4,7 @@ class Hi extends Component {
   render() {
     return (
       <div>
-        <h1>This is some smug hi component </h1>
+        <h1 />
       </div>
     );
   }
