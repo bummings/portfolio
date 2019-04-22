@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CodeHeader from './components/CodeHeader';
+import CodeHeader from './components/Landing';
 import Hi from './components/Hi';
 
 import './App.scss';
