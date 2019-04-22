@@ -1,3 +1,7 @@
 .hi {
   border: 10px solid red;
+
+  &__header {
+    font-size: 5rem;
+  }
 }
