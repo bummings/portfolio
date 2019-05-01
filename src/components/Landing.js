@@ -15,7 +15,7 @@ class CodeHeader extends Component {
           <span className='keyword'>const</span>{' '}
           <span className='variable'>name </span>
           <span className='equal'>= </span>
-          <span className='definition'> 'edd burke'</span>
+          <span className='definition'> 'Edd Burke'</span>
           <span className='text'>;</span>
         </h1>
         <h1 className='landing__code'>
@@ -27,6 +27,7 @@ class CodeHeader extends Component {
           <span className='bracket'>{leftCurly}</span>
           <span className='variable'>name</span>
           <span className='bracket'>{rightCurly}</span>
+          <span className='text'>.</span>
           <span className='bracket'>{leftBracketEnd}</span>
           <span className='element'>intro</span>
           <span className='bracket'>{rightBracket}</span>
