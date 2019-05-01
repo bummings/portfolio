@@ -21,7 +21,7 @@ class CodeHeader extends Component {
           <span className='bracket'>{leftBracket}</span>
           <span className='element'>intro</span>
           <span className='bracket'>{rightBracket}</span>
-          <span className='text'>Hi! My name is </span>
+          <span className='text'>Hello! My name is </span>
           <span className='bracket'>{leftCurly}</span>
           <span className='variable'>name</span>
           <span className='bracket'>{rightCurly}</span>
