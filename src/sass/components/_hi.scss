@@ -1,7 +1,13 @@
 .hi {
-  padding: 3rem;
+  padding: 3rem 12rem;
+  border: 1rem solid red;
 
   &__header {
-    font-size: 5rem;
+    font-size: 7rem;
+  }
+
+  &__paragraph {
+    font-size: 3rem;
+    line-height: 1.5;
   }
 }
