@@ -11,6 +11,7 @@ class CodeHeader extends Component {
     return (
       <div className='landing'>
         <h1 className='landing__code'>
+          <span className='lineNumber'>01</span>
           <span className='keyword'>const</span>{' '}
           <span className='variable'>name </span>
           <span className='equal'>= </span>
@@ -18,6 +19,7 @@ class CodeHeader extends Component {
           <span className='text'>;</span>
         </h1>
         <h1 className='landing__code'>
+          <span className='lineNumber'>02</span>
           <span className='bracket'>{leftBracket}</span>
           <span className='element'>intro</span>
           <span className='bracket'>{rightBracket}</span>

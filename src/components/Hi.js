@@ -5,9 +5,7 @@ class Hi extends Component {
     return (
       <div className='hi'>
         <h1 className='hi__header'>Hello, I'm Edd-</h1>
-        <h1 className='hi__header'>
-          a full-stack developer from Philadelphia.
-        </h1>
+        <h2>a full-stack software developer from Philadelphia.</h2>
       </div>
     );
   }
