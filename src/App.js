@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Splash />
-        <CodeHeader />
+        {/* <CodeHeader /> */}
         <Hi />
         <Projects />
         {/* <Footer /> */}
