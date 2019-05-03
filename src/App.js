@@ -13,8 +13,8 @@ class App extends Component {
         <Splash />
         {/* <CodeHeader /> */}
         {/* <Hi /> */}
-        <Contact />
         <Projects />
+        <Contact />
         {/* <Footer /> */}
       </div>
     );
