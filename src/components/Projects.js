@@ -90,6 +90,7 @@ class Projects extends Component {
             </p>
           </div>
         </div>
+
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>
@@ -145,6 +146,44 @@ class Projects extends Component {
               the database and was deployed to AWS S3. Auth0 is used for
               authentication.
             </p>
+          </div>
+        </div>
+
+        {/* !!! */}
+        <div className='projects__project'>
+          <div className='projects__project--two'>
+            <h2 className='projects__project--header'>xchangewax</h2>
+            <h3 className='projects__project--sub'>December 2017</h3>
+
+            <p className='projects__project--description'>
+              This was my first deep-dive into NodeJS. xchangewax was a concept
+              I came up with for documenting record stores in Philadelphia,
+              catered to local crate-diggers and record collectors alike. The
+              dataset is very simple and raw but this was a sea change for me,
+              coming from the world of static development and experiencing
+              client-side rendering, a remote database as well as using EJS
+              (embedded javascript) for the first time, setting the foundation
+              for how I would interact with JSX later on in React. This was also
+              the first time I used NPM for managing different dependencies and
+              libraries.
+            </p>
+            <p className='projects__project--description'>
+              This project was put together in a day as a entry for an
+              internship with a local development shop. It's using simple HTML5
+              and CSS3, enveloped in EJS on the front end and NodeJS with
+              Express on the backend, using a MongoDB databse, hosted remotely
+              on MLab.
+            </p>
+            <p className='projects__project--description'>
+              xchangewax never got very far and I never got a call back about
+              the internship but it's a very special project to me because it
+              changed everything for me about how I imagined what functional web
+              technology could be and I never looked back- that is, until I was
+              putting together this portfolio.
+            </p>
+          </div>
+          <div className='projects__project--one'>
+            <img src={xchange} alt='' className='projects__project--img' />
           </div>
         </div>
       </div>
