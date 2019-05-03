@@ -9,6 +9,8 @@
 
 .one {
   height: 100vh;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +21,7 @@
   background-color: $color-code-background;
   font-family: $font-secondary;
   margin: 0;
-  padding: 2rem 0.6rem 0;
+  // padding: 2rem 0.6rem 0;
 }
 
 .two {
@@ -27,5 +29,4 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
