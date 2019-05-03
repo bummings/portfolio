@@ -61,6 +61,33 @@ class Projects extends Component {
             <img src={eddnotes} alt='' className='projects__project--img' />
           </div>
         </div>
+        {/* !!! */}
+        <div className='projects__project'>
+          <div className='projects__project--one'>
+            <img src={moveBytes} alt='' className='projects__project--img' />
+          </div>
+          <div className='projects__project--two'>
+            <h2 className='projects__project--header'>MoveBytes</h2>
+            <h3 className='projects__project--sub'>February 2019</h3>
+
+            <p className='projects__project--description'>
+              MoveBytes is a file sharing service that allows users to upload
+              and share files up to 5GB with anyone. Links are shared with a
+              generated magic link that's e-mailed to a recipient, via the
+              SendGrid API.
+            </p>
+            <p className='projects__project--description'>
+              Users can purchase a paid account to host files for longer than 7
+              days and to be notified when the file has been successfully
+              downloaded by the recipient.
+            </p>
+            <p className='projects__project--description'>
+              This project was built with React and Styled Components on the
+              front end, NodeJS and Express.js on the backend, PostgreSQL for
+              the database and was deployed to AWS S3.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
