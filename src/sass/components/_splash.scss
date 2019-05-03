@@ -3,12 +3,29 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .one {
-  border: 3px solid red;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $color-code-background;
+  font-family: $font-secondary;
+  margin: 0;
+  padding: 2rem 0.6rem 0;
 }
 
 .two {
-  border: 3px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
