@@ -13,7 +13,7 @@ class Splash extends Component {
         <div className='one'>
           <h1 className='landing__code'>
             <span className='lineNumber'>01</span>
-            <span className='keyword'>const</span>{' '}
+            <span className='keyword'>const </span>
             <span className='variable'>name </span>
             <span className='equal'>= </span>
             <span className='definition'> 'Edd Burke'</span>
