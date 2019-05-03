@@ -25,23 +25,40 @@ class Splash extends Component {
           <div className='landing__code'>
             <span className='lineNumber'>02</span>
           </div>
+
           <div className='landing__code'>
-            <span className='lineNumber'>01</span>
+            <span className='lineNumber'>03</span>
             <span className='keyword'>class </span>
             <span className='variable'>Intro </span>
             <span className='keyword'>extends </span>
-            <span className='variable'>Component</span>
+            <span className='variable'>Component </span>
+            <span className='bracket'>{leftCurly}</span>
           </div>
+
           <div className='landing__code'>
-            <span className='lineNumber'>01</span>
+            <span className='lineNumber'>04 &nbsp;</span>
+            <span className='render'> render</span>
+            <span className='variable'>() </span>
+            <span className='bracket'>{leftCurly}</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>05 &nbsp;&nbsp;&nbsp;</span>
+            <span className='bracket'> return</span>
+            <span className='variable'>( </span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>09</span>
             <span className='keyword'>const </span>
             <span className='variable'>name </span>
             <span className='equal'>= </span>
             <span className='definition'> 'Edd Burke'</span>
             <span className='text'>;</span>
           </div>
+
           <div className='landing__code'>
-            <span className='lineNumber'>02</span>
+            <span className='lineNumber'>09</span>
             <span className='bracket'>{leftBracket}</span>
             <span className='element'>intro</span>
             <span className='bracket'>{rightBracket}</span>
