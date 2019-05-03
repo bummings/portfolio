@@ -110,6 +110,17 @@ class Splash extends Component {
             <span className='lineNumber'>12</span>
             <span className='bracket'>{rightCurly}</span>
           </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>13</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>14</span>
+            <span className='bracket'>export default </span>
+            <span className='variable'>Intro</span>
+            <span className='bracket'>;</span>
+          </div>
         </div>
         <div className='two'>
           <div className='hi'>
