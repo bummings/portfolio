@@ -1,9 +1,18 @@
 .projects {
-  // border: 0.5rem solid blue;
   // background-color: #fc929e;
   height: 85vh;
 
   &__header {
     margin: 0;
+  }
+
+  &__project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &--img {
+      height: 70rem;
+      width: 70rem;
+    }
   }
 }
