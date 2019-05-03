@@ -118,7 +118,35 @@ class Projects extends Component {
             <img src={steap} alt='' className='projects__project--img' />
           </div>
         </div>
+
         {/* !!! */}
+        <div className='projects__project'>
+          <div className='projects__project--one'>
+            <img src={sjarc} alt='' className='projects__project--img' />
+          </div>
+          <div className='projects__project--two'>
+            <h2 className='projects__project--header'>S&J Architects</h2>
+            <h3 className='projects__project--sub'>September 2018</h3>
+
+            <p className='projects__project--description'>
+              A fully responsive design for a fictional architecture firm
+              composed with HTML5, CSS3 with LESS preprocessing and vanilla
+              Javascript. This was my first front end project for the Lambda
+              School curriculum.
+            </p>
+            <p className='projects__project--description'>
+              This project allowed me to experiment with the differences between
+              LESS from Sass and understand modals in raw Javascript, as opposed
+              to using a library or jQuery add-on.
+            </p>
+            <p className='projects__project--description'>
+              This project was built with React and Styled Components on the
+              front end, NodeJS and Express.js on the backend, PostgreSQL for
+              the database and was deployed to AWS S3. Auth0 is used for
+              authentication.
+            </p>
+          </div>
+        </div>
       </div>
     );
   }
