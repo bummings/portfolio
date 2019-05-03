@@ -11,15 +11,36 @@ class Splash extends Component {
     return (
       <div className='splash'>
         <div className='one'>
-          <h1 className='landing__code'>
+          <div className='landing__code'>
+            <span className='lineNumber'>01</span>
+            <span className='bracket'>import </span>
+            <span className='variable'>
+              React, <span className='bracket'>{leftCurly}</span> Component
+              <span className='bracket'> {rightCurly}</span>
+            </span>
+            <span className='bracket'> from </span>
+            <span className='definition'> 'react'</span>
+            <span className='text'>;</span>
+          </div>
+          <div className='landing__code'>
+            <span className='lineNumber'>02</span>
+          </div>
+          <div className='landing__code'>
+            <span className='lineNumber'>01</span>
+            <span className='keyword'>class </span>
+            <span className='variable'>Intro </span>
+            <span className='keyword'>extends </span>
+            <span className='variable'>Component</span>
+          </div>
+          <div className='landing__code'>
             <span className='lineNumber'>01</span>
             <span className='keyword'>const </span>
             <span className='variable'>name </span>
             <span className='equal'>= </span>
             <span className='definition'> 'Edd Burke'</span>
             <span className='text'>;</span>
-          </h1>
-          <h1 className='landing__code'>
+          </div>
+          <div className='landing__code'>
             <span className='lineNumber'>02</span>
             <span className='bracket'>{leftBracket}</span>
             <span className='element'>intro</span>
@@ -32,7 +53,7 @@ class Splash extends Component {
             <span className='bracket'>{leftBracketEnd}</span>
             <span className='element'>intro</span>
             <span className='bracket'>{rightBracket}</span>
-          </h1>
+          </div>
         </div>
         <div className='two'>
           <div className='hi'>

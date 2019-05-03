@@ -10,10 +10,11 @@
   &__code {
     padding: 0;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 100;
     margin-right: 15rem;
     width: 60rem;
+    line-height: 1.5;
   }
 }
 
@@ -21,8 +22,8 @@
 
 .lineNumber {
   color: grey;
-  margin-right: 4rem;
-  font-size: 2.5rem;
+  margin-right: 2rem;
+  margin-left: 0.8rem;
 }
 
 .keyword {
