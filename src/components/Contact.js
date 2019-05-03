@@ -6,22 +6,19 @@ class Contact extends Component {
       <div className='contact'>
         <div className='contact__form'>
           <form name='contact' netlify>
-            <p>
-              <label>
-                Name <input type='text' name='name' />
-              </label>
-            </p>
-            <p>
-              <label>
-                Email <input type='email' name='email' />
-              </label>
-            </p>
-            <p>
-              <button type='submit'>Send</button>
-            </p>
+            <label>
+              Name <input type='text' name='name' />
+            </label>
+
+            <label>
+              Email <input type='email' name='email' />
+            </label>
+
+            <button type='submit'>Send</button>
           </form>
         </div>
       </div>
+
       //       <div class="contact">
       //             <div class="contact__header">
       //               <p class='contact__header--text' data-aos="zoom-in"  data-aos-easing="ease-in-out" data-aos-duration="1000">Let's talk</p>
