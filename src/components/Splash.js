@@ -24,7 +24,7 @@ class Splash extends Component {
             <span className='bracket'>{leftBracket}</span>
             <span className='element'>intro</span>
             <span className='bracket'>{rightBracket}</span>
-            <span className='text'>Hello! My name is </span>
+            <span className='text'>Hi! I'm </span>
             <span className='bracket'>{leftCurly}</span>
             <span className='variable'>name</span>
             <span className='bracket'>{rightCurly}</span>
@@ -36,7 +36,7 @@ class Splash extends Component {
         </div>
         <div className='two'>
           <div className='hi'>
-            <h1 className='hi__header'>Hello! My name is Edd Burke.</h1>
+            <h1 className='hi__header'>Hi! I'm Edd Burke.</h1>
             <p className='hi__paragraph'>
               I am a profoundly-driven programmer, developer, designer, hacker
               and- above all- learner.{' '}
