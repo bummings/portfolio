@@ -12,7 +12,7 @@ class CodeHeader extends Component {
       <div className='landing'>
         <h1 className='landing__code'>
           <span className='lineNumber'>01</span>
-          <span className='keyword'>const</span>{' '}
+          <span className='keyword'>const</span>
           <span className='variable'>name </span>
           <span className='equal'>= </span>
           <span className='definition'> 'Edd Burke'</span>
