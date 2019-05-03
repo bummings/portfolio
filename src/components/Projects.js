@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
+
 import bonafind from '../assets/bonafind.jpg';
+import moveBytes from '../assets/movebytes.jpg';
+import eddnotes from '../assets/eddnotes.jpg';
+import steap from '../assets/steap.jpg';
+import sjarc from '../assets/sjarc.jpg';
+import zephyr from '../assets/zephyr.jpg';
+
 class Projects extends Component {
   render() {
     return (
