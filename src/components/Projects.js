@@ -6,6 +6,7 @@ import eddnotes from '../assets/eddnotes.jpg';
 import steap from '../assets/steap.jpg';
 import sjarc from '../assets/sjarc.jpg';
 import zephyr from '../assets/zephyr.jpg';
+import xchange from '../assets/xchange.jpg';
 
 class Projects extends Component {
   render() {
@@ -42,7 +43,7 @@ class Projects extends Component {
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>Edd Notes</h2>
+            <h2 className='projects__project--header'>Edd's Notes</h2>
             <h3 className='projects__project--sub'>October 2018</h3>
 
             <p className='projects__project--description'>
@@ -84,10 +85,40 @@ class Projects extends Component {
             <p className='projects__project--description'>
               This project was built with React and Styled Components on the
               front end, NodeJS and Express.js on the backend, PostgreSQL for
-              the database and was deployed to AWS S3.
+              the database and was deployed to AWS S3. Auth0 is used for
+              authentication.
             </p>
           </div>
         </div>
+        {/* !!! */}
+        <div className='projects__project'>
+          <div className='projects__project--two'>
+            <h2 className='projects__project--header'>Steap & Grind</h2>
+            <h3 className='projects__project--sub'>February 2018</h3>
+
+            <p className='projects__project--description'>
+              A local restaurant website taken on as a freelance project. This
+              site allowed me to explore and experiment with everything I had
+              been learning about CSS Grid at the time, as well as exploring
+              more complicated media queries, in lieu of container queries (some
+              day!)
+            </p>
+            <p className='projects__project--description'>
+              This website was built using standard (and semantic) HTML5 with
+              Sass, using GulpJS for task managements such as compiling Sass,
+              compressing images, spinning up a development server and uglifying
+              the JS. There is a bit of jQuery spinkled in as well so as to add
+              in some mild animations. This project pre-dated Google Maps' cap
+              warning on overcharges and I woke up to a $500 dollar charge to my
+              credit card for Maps overages, via an API key left out in the open
+              on a public Github repo. Learned a wonderful lesson with that!
+            </p>
+          </div>
+          <div className='projects__project--one'>
+            <img src={steap} alt='' className='projects__project--img' />
+          </div>
+        </div>
+        {/* !!! */}
       </div>
     );
   }
