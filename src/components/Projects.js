@@ -140,12 +140,6 @@ class Projects extends Component {
               LESS from Sass and understand modals in raw Javascript, as opposed
               to using a library or jQuery add-on.
             </p>
-            <p className='projects__project--description'>
-              This project was built with React and Styled Components on the
-              front end, NodeJS and Express.js on the backend, PostgreSQL for
-              the database and was deployed to AWS S3. Auth0 is used for
-              authentication.
-            </p>
           </div>
         </div>
 
