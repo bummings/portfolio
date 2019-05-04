@@ -28,10 +28,14 @@
 
 .keyword {
   color: $color-code-keyword;
+  font-style: italic;
 }
 
 .variable {
   color: $color-code-text;
+}
+.reserved {
+  color: $color-code-bracket;
   font-style: italic;
 }
 

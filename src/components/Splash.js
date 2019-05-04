@@ -13,12 +13,12 @@ class Splash extends Component {
         <div className='one'>
           <div className='landing__code'>
             <span className='lineNumber'>01</span>
-            <span className='bracket'>import </span>
+            <span className='reserved'>import </span>
             <span className='variable'>
               React, <span className='bracket'>{leftCurly}</span> Component
               <span className='bracket'> {rightCurly}</span>
             </span>
-            <span className='bracket'> from </span>
+            <span className='reserved'> from </span>
             <span className='definition'> 'react'</span>
             <span className='text'>;</span>
           </div>
@@ -54,7 +54,7 @@ class Splash extends Component {
 
           <div className='landing__code'>
             <span className='lineNumber'>06 &nbsp;&nbsp;</span>
-            <span className='bracket'> return </span>
+            <span className='reserved'> return </span>
             <span className='variable'>( </span>
           </div>
 
@@ -132,7 +132,7 @@ class Splash extends Component {
 
           <div className='landing__code'>
             <span className='lineNumber'>16</span>
-            <span className='bracket'>export default </span>
+            <span className='reserved'>export default </span>
             <span className='variable'>Intro</span>
             <span className='bracket'>;</span>
           </div>
