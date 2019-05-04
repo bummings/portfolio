@@ -1,8 +1,8 @@
-<div class="contact__form" data-aos="flip-right" data-aos-duration="1200"  data-aos-offset="300">
-                     <form name="contact" method="POST" data-netlify="true">
+{/* <div class="contact__form" data-aos="flip-right" data-aos-duration="1200"  data-aos-offset="300">
+  <form name="contact" method="POST" data-netlify="true">
 
-         <label class="contact__form--label">Name</label><br>
-         <input class="contact__form--input" type="text" name="name" />
+    <label class="contact__form--label">Name</label><br>
+      <input class="contact__form--input" type="text" name="name" />
 
            <label class="contact__form--label"
             >E-mail</label><br>
@@ -23,7 +23,7 @@
           <button class="contact__form--btn" type="submit">Send</button>
 
       </form>
-                  </div>
+                  </div> */}
 
                   <div class="contact__details">
                     <div class="contact__details--email">

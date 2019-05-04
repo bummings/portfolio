@@ -75,13 +75,47 @@ class Splash extends Component {
               08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span className='bracket'>{leftBracket}</span>
+            <span className='element'>h1 </span>
+            <span className='keyword'>className</span>
+            <span className='text'>=</span>
+            <span className='definition'>'intro__header'</span>
+            <span className='bracket'>{rightBracket}</span>
+            <span className='text'>Hi!</span>
+
+            <span className='bracket'>{leftBracketEnd}</span>
             <span className='element'>h1</span>
             <span className='bracket'>{rightBracket}</span>
-            <span className='text'>Hi! I'm </span>
-            <span className='bracket'>{leftCurly}</span>
-            <span className='variable'>name</span>
-            <span className='bracket'>{rightCurly}</span>
-            <span className='text'>.</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>
+              08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span className='bracket'>{leftBracket}</span>
+            <span className='element'>h1 </span>
+            <span className='keyword'>className</span>
+            <span className='text'>=</span>
+            <span className='definition'>'intro__header'</span>
+            <span className='bracket'>{rightBracket}</span>
+            <span className='text'>Hi!</span>
+
+            <span className='bracket'>{leftBracketEnd}</span>
+            <span className='element'>h1</span>
+            <span className='bracket'>{rightBracket}</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>
+              08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </span>
+            <span className='bracket'>{leftBracket}</span>
+            <span className='element'>h1 </span>
+            <span className='keyword'>className</span>
+            <span className='text'>=</span>
+            <span className='definition'>'intro__header'</span>
+            <span className='bracket'>{rightBracket}</span>
+            <span className='text'>Hi!</span>
+
             <span className='bracket'>{leftBracketEnd}</span>
             <span className='element'>h1</span>
             <span className='bracket'>{rightBracket}</span>
