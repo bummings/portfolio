@@ -80,42 +80,19 @@ class Splash extends Component {
             <span className='text'>=</span>
             <span className='definition'>'intro__header'</span>
             <span className='bracket'>{rightBracket}</span>
-            <span className='text'>Hi!</span>
-
-            <span className='bracket'>{leftBracketEnd}</span>
-            <span className='element'>h1</span>
-            <span className='bracket'>{rightBracket}</span>
           </div>
 
           <div className='landing__code'>
             <span className='lineNumber'>
-              08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              09 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            <span className='bracket'>{leftBracket}</span>
-            <span className='element'>h1 </span>
-            <span className='keyword'>className</span>
-            <span className='text'>=</span>
-            <span className='definition'>'intro__header'</span>
-            <span className='bracket'>{rightBracket}</span>
-            <span className='text'>Hi!</span>
-
-            <span className='bracket'>{leftBracketEnd}</span>
-            <span className='element'>h1</span>
-            <span className='bracket'>{rightBracket}</span>
+            <span className='text'>Hi! I'm Edd Burke.</span>
           </div>
 
           <div className='landing__code'>
             <span className='lineNumber'>
-              08 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              10 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            <span className='bracket'>{leftBracket}</span>
-            <span className='element'>h1 </span>
-            <span className='keyword'>className</span>
-            <span className='text'>=</span>
-            <span className='definition'>'intro__header'</span>
-            <span className='bracket'>{rightBracket}</span>
-            <span className='text'>Hi!</span>
-
             <span className='bracket'>{leftBracketEnd}</span>
             <span className='element'>h1</span>
             <span className='bracket'>{rightBracket}</span>
