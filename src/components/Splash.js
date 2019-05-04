@@ -86,7 +86,11 @@ class Splash extends Component {
             <span className='lineNumber'>
               09 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
-            <span className='text'>Hi! I'm Edd Burke.</span>
+            <span className='text'>Hi! I'm </span>
+            <span className='bracket'>{leftCurly}</span>
+            <span className='variable'> name </span>
+            <span className='bracket'>{rightCurly}</span>
+            <span className='variable'>.</span>
           </div>
 
           <div className='landing__code'>
@@ -100,7 +104,7 @@ class Splash extends Component {
 
           <div className='landing__code'>
             <span className='lineNumber'>
-              09 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              11 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </span>
             <span className='bracket'>{leftBracket}/</span>
             <span className='element'>div</span>
@@ -108,26 +112,26 @@ class Splash extends Component {
           </div>
 
           <div className='landing__code'>
-            <span className='lineNumber'>10 &nbsp;&nbsp;&nbsp;</span>
+            <span className='lineNumber'>12 &nbsp;&nbsp;&nbsp;</span>
             <span className='variable'>); </span>
           </div>
 
           <div className='landing__code'>
-            <span className='lineNumber'>11 &nbsp;</span>
+            <span className='lineNumber'>13 &nbsp;</span>
             <span className='bracket'>{rightCurly}</span>
-          </div>
-
-          <div className='landing__code'>
-            <span className='lineNumber'>12</span>
-            <span className='bracket'>{rightCurly}</span>
-          </div>
-
-          <div className='landing__code'>
-            <span className='lineNumber'>13</span>
           </div>
 
           <div className='landing__code'>
             <span className='lineNumber'>14</span>
+            <span className='bracket'>{rightCurly}</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>15</span>
+          </div>
+
+          <div className='landing__code'>
+            <span className='lineNumber'>16</span>
             <span className='bracket'>export default </span>
             <span className='variable'>Intro</span>
             <span className='bracket'>;</span>
