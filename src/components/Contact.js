@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
 
+import email from '../assets/email.svg';
+import phone from '../assets/phone.svg';
+
 class Contact extends Component {
   render() {
     return (
@@ -45,30 +48,13 @@ class Contact extends Component {
         </div>
         <div className='contact__details'>
           <div class='contact__details--email'>
-            <img
-              class='contact__details--icon'
-              src='./assets/email.svg'
-              alt='email'
-            />
-            <p class='contact__details--text'>JennaStrusowski@gmail.com</p>
+            <img class='contact__details--icon' src={email} alt='email' />
+            <p class='contact__details--text'>hello@bummings.io</p>
           </div>
 
           <div class='contact__details--phone'>
-            <img
-              class='contact__details--icon'
-              src='./assets/phone.svg'
-              alt='telephone'
-            />
-            <p class='contact__details--text'>(267) 222-2667</p>
-          </div>
-
-          <div class='contact__details--skype'>
-            <img
-              class='contact__details--icon'
-              src='./assets/skype.svg'
-              alt='telephone'
-            />
-            <p class='contact__details--text'>JennaStrusowski</p>
+            <img class='contact__details--icon' src={phone} alt='telephone' />
+            <p class='contact__details--text'>(215) 971-7458</p>
           </div>
         </div>
       </div>
