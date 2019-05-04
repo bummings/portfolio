@@ -6,7 +6,7 @@ class Contact extends Component {
       <div className='contact'>
         <div className='contact__header'>
           <p
-            class='contact__header--text'
+            className='contact__header--text'
             data-aos='zoom-in'
             data-aos-easing='ease-in-out'
             data-aos-duration='1000'
