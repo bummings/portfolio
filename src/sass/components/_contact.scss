@@ -88,22 +88,14 @@
     flex-direction: column;
     justify-content: flex-start;
     margin-left: 3rem;
-    margin-top: 2rem;
+    margin-top: 5.5rem;
 
-    &--email {
+    &--detail {
       display: flex;
       flex-direction: row;
       justify-content: flex-start;
       align-items: center;
-      margin-bottom: 1rem;
-    }
-
-    &--phone {
-      display: flex;
-      flex-direction: row;
-      justify-content: flex-start;
-      align-items: center;
-      margin-bottom: 1rem;
+      margin-bottom: 4rem;
     }
 
     &--icon {
@@ -116,8 +108,9 @@
     }
 
     &--text {
-      font-size: 1.75rem;
+      font-size: 2.25rem;
       grid-column: 2;
+      letter-spacing: 0.8px;
     }
   }
 }

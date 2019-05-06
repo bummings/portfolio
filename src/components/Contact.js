@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import email from '../assets/email.svg';
 import phone from '../assets/phone.svg';
+import github from '../assets/github.svg';
+import linkedin from '../assets/linkedin.svg';
 
 class Contact extends Component {
   render() {
@@ -47,14 +49,24 @@ class Contact extends Component {
           </form>
         </div>
         <div className='contact__details'>
-          <div class='contact__details--email'>
+          <div class='contact__details--detail'>
             <img class='contact__details--icon' src={email} alt='email' />
             <p class='contact__details--text'>hello@bummings.io</p>
           </div>
 
-          <div class='contact__details--phone'>
+          <div class='contact__details--detail'>
             <img class='contact__details--icon' src={phone} alt='telephone' />
             <p class='contact__details--text'>(215) 971-7458</p>
+          </div>
+
+          <div class='contact__details--detail'>
+            <img class='contact__details--icon' src={github} alt='github' />
+            <p class='contact__details--text'>/bummings</p>
+          </div>
+
+          <div class='contact__details--detail'>
+            <img class='contact__details--icon' src={linkedin} alt='linkedin' />
+            <p class='contact__details--text'>/edd.burke</p>
           </div>
         </div>
       </div>
