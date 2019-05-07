@@ -1,5 +1,4 @@
 .projects {
-  // height: 85vh;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -11,21 +10,25 @@
   }
 
   &__project {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     flex-direction: row;
     align-items: center;
     margin-bottom: 18rem;
 
     &--one {
+      grid-column: span 2;
     }
 
     &--two {
       padding: 0 8rem;
+      grid-column: span 2;
     }
 
     &--img {
-      height: 70rem;
-      width: 70rem;
+      height: auto;
+      width: 100%;
     }
 
     &--header {
