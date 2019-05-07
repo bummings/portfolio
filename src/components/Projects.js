@@ -24,8 +24,11 @@ class Projects extends Component {
             <img src={bonafind} alt='' className='projects__project--img' />
           </div>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>Bonafind</h2>
-            <h3 className='projects__project--sub'>December 2018</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>Bonafind</h2>
+              <h3 className='projects__project--sub'>December 2018</h3>
+            </div>
+            <span className='projects__project--url'>http://bonafind.biz</span>
 
             <p className='projects__project--description'>
               Bonafind is a web application that helps you discover restaurants
@@ -48,8 +51,13 @@ class Projects extends Component {
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>Edd's Notes</h2>
-            <h3 className='projects__project--sub'>October 2018</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>Edd's Notes</h2>
+              <h3 className='projects__project--sub'>October 2018</h3>
+            </div>
+            <span className='projects__project--url'>
+              https://eddnotes.netlify.com/
+            </span>
 
             <p className='projects__project--description'>
               A fundamental note-taking web application that helped me
@@ -73,8 +81,13 @@ class Projects extends Component {
             <img src={moveBytes} alt='' className='projects__project--img' />
           </div>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>MoveBytes</h2>
-            <h3 className='projects__project--sub'>February 2019</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>MoveBytes</h2>
+              <h3 className='projects__project--sub'>February 2019</h3>
+            </div>
+            <span className='projects__project--url'>
+              https://movebytes.com
+            </span>
 
             <p className='projects__project--description'>
               MoveBytes is a file sharing service that allows users to upload
@@ -99,8 +112,13 @@ class Projects extends Component {
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>Steap & Grind</h2>
-            <h3 className='projects__project--sub'>February 2018</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>Steap and Grind</h2>
+              <h3 className='projects__project--sub'>February 2018</h3>
+            </div>
+            <span className='projects__project--url'>
+              https://steapandgrind.com
+            </span>
 
             <p className='projects__project--description'>
               A local restaurant website taken on as a freelance project. This
@@ -131,8 +149,13 @@ class Projects extends Component {
             <img src={sjarc} alt='' className='projects__project--img' />
           </div>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>S&J Architects</h2>
-            <h3 className='projects__project--sub'>September 2018</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>S&J Architects</h2>
+              <h3 className='projects__project--sub'>September 2018</h3>
+            </div>
+            <span className='projects__project--url'>
+              https://sandjarchitecture.netlify.com/
+            </span>
 
             <p className='projects__project--description'>
               A fully responsive design for a fictional architecture firm
@@ -151,8 +174,13 @@ class Projects extends Component {
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>
-            <h2 className='projects__project--header'>xchangewax</h2>
-            <h3 className='projects__project--sub'>December 2017</h3>
+            <div className='projects__project--top'>
+              <h2 className='projects__project--header'>xchangewax</h2>
+              <h3 className='projects__project--sub'>December 2017</h3>
+            </div>
+            <span className='projects__project--url'>
+              https://xchangewax.netlify.com/
+            </span>
 
             <p className='projects__project--description'>
               This was my first deep-dive into NodeJS. xchangewax was a concept
