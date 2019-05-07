@@ -19,11 +19,21 @@
 
     &--one {
       grid-column: span 2;
+      grid-row: span 2;
+      @media screen and (max-width: 1200px) {
+        grid-column: span 4;
+        grid-row: 1;
+      }
     }
 
     &--two {
       padding: 0 8rem;
       grid-column: span 2;
+      grid-row: span 2;
+      @media screen and (max-width: 1200px) {
+        grid-column: span 4;
+        grid-row: 2;
+      }
     }
 
     &--img {
@@ -34,16 +44,28 @@
     &--header {
       font-size: 7rem;
       margin: 0;
+      @media screen and (max-width: 1700px) {
+        font-size: 5rem;
+      }
     }
 
     &--sub {
       font-size: 4rem;
       font-style: italic;
       margin: 0;
+      @media screen and (max-width: 1700px) {
+        font-size: 3rem;
+      }
     }
 
     &--description {
       font-size: 2.4rem;
+      @media screen and (max-width: 1700px) {
+        font-size: 1.4rem;
+      }
+      @media screen and (max-width: 1200px) {
+        font-size: 2rem;
+      }
     }
   }
 }
