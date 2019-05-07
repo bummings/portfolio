@@ -148,9 +148,8 @@ class Splash extends Component {
               Software and technology has been the consistent source of
               inspiration of my life: learning to solve my own personal
               quagmires and working with the greatest community of fellow
-              futurists- all the while learning with great pleasure every
-              functional, modular development and design pattern I can sink my
-              teeth into.
+              futurists- all the while learning every functional, modular
+              development and design pattern I can sink my teeth into.
             </p>
           </div>
         </div>
