@@ -16,7 +16,10 @@ class Contact extends Component {
             data-aos-easing='ease-in-out'
             data-aos-duration='1000'
           >
-            Let's talk
+            Get in touch
+          </p>
+          <p className='contact__header--invitation'>
+            Let's build something together- I'd love to work with you.
           </p>
         </div>
         <div

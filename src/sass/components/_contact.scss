@@ -24,10 +24,23 @@
         font-size: 10rem;
       }
       @media screen and (max-width: 1475px) {
-        font-size: 7rem;
+        font-size: 8rem;
       }
       @media screen and (max-width: 1375px) {
-        font-size: 4.2rem;
+        font-size: 6rem;
+      }
+    }
+
+    &--invitation {
+      font-family: $font-primary;
+      font-size: 2.4rem;
+      margin: 0;
+
+      @media screen and (max-width: 1850px) {
+        font-size: 2rem;
+      }
+      @media screen and (max-width: 1475px) {
+        font-size: 1.8rem;
       }
     }
 
