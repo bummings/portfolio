@@ -4,6 +4,15 @@
   &__header {
     font-size: 8rem;
     margin: 0;
+    @media screen and (max-width: 1850px) {
+      font-size: 6rem;
+    }
+    @media screen and (max-width: 1475px) {
+      font-size: 5rem;
+    }
+    @media screen and (max-width: 1375px) {
+      font-size: 4.2rem;
+    }
   }
 
   &__sub {
@@ -14,5 +23,15 @@
   &__paragraph {
     font-size: 3rem;
     line-height: 1.5;
+
+    @media screen and (max-width: 1850px) {
+      font-size: 2.5rem;
+    }
+    @media screen and (max-width: 1475px) {
+      font-size: 2rem;
+    }
+    @media screen and (max-width: 1375px) {
+      font-size: 1.75rem;
+    }
   }
 }
