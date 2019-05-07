@@ -16,7 +16,11 @@
   }
 
   &--headline {
-    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    &__headline {
+      text-transform: uppercase;
+    }
   }
 
   &__header {
@@ -28,7 +32,7 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 18rem;
 
     &--one {
