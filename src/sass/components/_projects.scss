@@ -5,6 +5,20 @@
   padding: 0 7rem;
   line-height: 1.5;
 
+  @media screen and (max-width: 1850px) {
+    padding: 0 5rem;
+  }
+  @media screen and (max-width: 1475px) {
+    padding: 0 4rem;
+  }
+  @media screen and (max-width: 1375px) {
+    padding: 0 1rem;
+  }
+
+  &--headline {
+    text-transform: uppercase;
+  }
+
   &__header {
     font-size: 12rem;
   }
@@ -43,7 +57,10 @@
 
     &--header {
       font-size: 7rem;
+      font-family: Oswald;
+      text-transform: uppercase;
       margin: 0;
+
       @media screen and (max-width: 1700px) {
         font-size: 5rem;
       }

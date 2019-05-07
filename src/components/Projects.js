@@ -12,7 +12,7 @@ class Projects extends Component {
   render() {
     return (
       <div className='projects'>
-        <h1 className='projects__header'>Projects</h1>
+        <h1 className='projects--headline'>Projects</h1>
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--one'>
