@@ -14,6 +14,9 @@ class Projects extends Component {
       <div className='projects'>
         <div className='projects--headline'>
           <h1 className='projects--headline__headline'>Projects</h1>
+          <p className='projects--headline__sub'>
+            Here's a selection of what I've been working on.
+          </p>
         </div>
         {/* !!! */}
         <div className='projects__project'>
