@@ -141,15 +141,12 @@ class Splash extends Component {
           <div className='hi'>
             <h1 className='hi__header'>Hi! I'm Edd Burke.</h1>
             <p className='hi__paragraph'>
-              I am a profoundly-driven programmer, developer, designer, hacker
-              and- above all- learner.{' '}
+              I'm a full-stack developer, designer, musician and autodidact from
+              Philadelphia.
             </p>
             <p className='hi__paragraph'>
-              Software and technology has been the consistent source of
-              inspiration of my life: learning to solve my own personal
-              quagmires and working with the greatest community of fellow
-              futurists- all the while learning every functional, modular
-              development and design pattern I can sink my teeth into.
+              I love functional web technology and want to sink my teeth into
+              absolutely everything to do with it.
             </p>
           </div>
         </div>
