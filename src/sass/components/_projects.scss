@@ -28,6 +28,7 @@
       font-size: 8rem;
       text-transform: uppercase;
       margin: 0;
+      padding-top: 10rem;
     }
 
     &__sub {
@@ -74,6 +75,7 @@
       @media screen and (max-width: 1200px) {
         grid-column: span 4;
         grid-row: 2;
+        padding: 0 2rem;
       }
     }
 

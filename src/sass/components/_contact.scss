@@ -1,6 +1,10 @@
 .contact {
   background-color: #ddeedd;
   height: 100vh;
+
+  @media screen and (max-width: 1000px) {
+    height: 100%;
+  }
   color: $color-black;
   padding: 3rem;
 
