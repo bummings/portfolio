@@ -4,8 +4,9 @@
   align-content: center;
   padding: 0 7rem;
   line-height: 1.5;
-  margin-top: 10rem;
+  padding-top: 10rem;
   color: $color-black;
+  background-color: $color-white;
 
   @media screen and (max-width: 1850px) {
     padding: 0 5rem;

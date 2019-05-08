@@ -12,19 +12,20 @@
     justify-content: flex-start;
     padding: 0;
     margin: 0;
-    font-size: 1.95rem;
+    font-size: 2.5rem;
     font-weight: 100;
     margin-right: 10rem;
     line-height: 1.6;
 
     @media screen and (max-width: 1850px) {
-      font-size: 1.75rem;
+      font-size: 2.25rem;
     }
-    @media screen and (max-width: 1475px) {
-      font-size: 1.5rem;
+    @media screen and (max-width: 1480px) {
+      font-size: 1.8rem;
     }
-    @media screen and (max-width: 1375px) {
-      font-size: 1.2rem;
+    @media screen and (max-width: 1230px) {
+      font-size: 1.3rem;
+      margin-right: 2rem;
     }
   }
 }
