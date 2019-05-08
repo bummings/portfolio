@@ -23,6 +23,8 @@ class Contact extends Component {
           </p>
         </div>
 
+        {/* BLOCK */}
+
         <div className='contact__form'>
           <div className='contact__form--form'>
             <form name='contact' method='POST' data-netlify='true'>
