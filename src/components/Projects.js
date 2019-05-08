@@ -28,7 +28,13 @@ class Projects extends Component {
               <h2 className='projects__project--header'>Bonafind</h2>
               <h3 className='projects__project--sub'>December 2018</h3>
             </div>
-            <span className='projects__project--url'>http://bonafind.biz</span>
+            <a
+              href='http://bonafind.biz'
+              target='_none'
+              className='projects__project--url'
+            >
+              http://bonafind.biz
+            </a>
 
             <p className='projects__project--description'>
               Bonafind is a web application that helps you discover restaurants
