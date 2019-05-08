@@ -141,12 +141,39 @@ class Splash extends Component {
           <div className='hi'>
             <h1 className='hi__header'>Hi! I'm Edd Burke.</h1>
             <p className='hi__paragraph'>
-              I'm a full-stack developer, designer, musician and autodidact from
-              Philadelphia.
+              I'm a full-stack developer, designer, musician, philatelic and
+              overall autodidact from Philadelphia.
             </p>
             <p className='hi__paragraph'>
               I love functional web technology and want to sink my teeth into
               absolutely everything to do with it.
+            </p>
+            <p className='hi__paragraph'>
+              You can analyze me on{' '}
+              <a
+                class='hi__link'
+                href='http://github.com/bummings'
+                target='_none'
+              >
+                Github
+              </a>
+              , microscope me on{' '}
+              <a
+                class='hi__link'
+                href='http://linkedin.com/in/eddburke'
+                target='_none'
+              >
+                LinkedIn
+              </a>
+              , or consume my{' '}
+              <a
+                class='hi__link'
+                href='http://bummings.io/resume'
+                target='_none'
+              >
+                résumé
+              </a>
+              .
             </p>
           </div>
         </div>

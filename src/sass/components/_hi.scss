@@ -49,4 +49,12 @@
       font-size: 1.75rem;
     }
   }
+
+  &__link {
+    text-decoration: none;
+    padding: 0.2rem 0.4rem;
+    background-color: $color-highlight;
+    color: $color-black;
+    font-weight: bold;
+  }
 }
