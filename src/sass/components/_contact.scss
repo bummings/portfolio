@@ -1,7 +1,7 @@
 .contact {
   background-color: #ddeedd;
   height: 100vh;
-  color: black;
+  color: $color-black;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-column-gap: 7rem;
@@ -124,7 +124,7 @@
     &--icon {
       height: 60px;
       width: 60px;
-      filter: invert(0%) sepia(2%) saturate(3617%) hue-rotate(3deg)
+      filter: invert(0%) sepia(2%) saturate(36%) hue-rotate(3deg)
         brightness(98%) contrast(106%);
       margin-right: 1.5rem;
       grid-column: 1;
