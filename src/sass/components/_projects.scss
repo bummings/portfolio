@@ -90,16 +90,19 @@
 
     &--top {
       display: flex;
-      flex-direction: row;
-      align-items: center;
-      // border: 1px solid;
+      flex-direction: column;
+      margin: 0;
+      margin-bottom: 2rem;
     }
 
     &--header {
       font-size: 5rem;
       font-family: $font-tertiary;
       text-transform: uppercase;
+      background-color: $color-off-black;
+      color: $color-off-white;
       margin: 0;
+      padding: 0.2rem 0.8rem;
 
       @media screen and (max-width: 1700px) {
         font-size: 4rem;
@@ -107,19 +110,27 @@
     }
 
     &--sub {
-      font-size: 4rem;
+      font-size: 1.2rem;
       font-style: italic;
-      margin: 0 0 0 4rem;
+      background-color: $color-off-black;
+      color: $color-off-white;
+      margin: 0;
+      padding: 0 0.8rem;
 
       @media screen and (max-width: 1700px) {
-        font-size: 3rem;
+        font-size: 2rem;
       }
     }
 
     &--url {
-      font-size: 2.5rem;
+      text-decoration: none;
+      font-size: 2rem;
+      font-family: $font-primary;
+      padding: 0.2rem 0.8rem;
+      background-color: $color-off-black;
+      color: $color-off-white;
       font-style: italic;
-      color: $color-black;
+      font-weight: bold;
     }
 
     &--description {

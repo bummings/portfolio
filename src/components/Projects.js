@@ -25,16 +25,15 @@ class Projects extends Component {
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>Bonafind</h2>
-              <h3 className='projects__project--sub'>December 2018</h3>
+              <p className='projects__project--header'>Bonafind</p>
+              <a
+                href='http://bonafind.biz'
+                target='_none'
+                className='projects__project--url'
+              >
+                http://bonafind.biz
+              </a>
             </div>
-            <a
-              href='http://bonafind.biz'
-              target='_none'
-              className='projects__project--url'
-            >
-              http://bonafind.biz
-            </a>
 
             <p className='projects__project--description'>
               Bonafind is a web application that helps you discover restaurants
@@ -58,16 +57,15 @@ class Projects extends Component {
         <div className='projects__project'>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>Edd's Notes</h2>
-              <h3 className='projects__project--sub'>October 2018</h3>
+              <p className='projects__project--header'>Edd's Notes</p>
+              <a
+                href='http://eddnotes.netlify.com'
+                target='_none'
+                className='projects__project--url'
+              >
+                https://eddnotes.netlify.com/
+              </a>
             </div>
-            <a
-              href='http://eddnotes.netlify.com'
-              target='_none'
-              className='projects__project--url'
-            >
-              https://eddnotes.netlify.com/
-            </a>
 
             <p className='projects__project--description'>
               A fundamental note-taking web application that helped me
@@ -92,16 +90,15 @@ class Projects extends Component {
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>MoveBytes</h2>
-              <h3 className='projects__project--sub'>February 2019</h3>
+              <p className='projects__project--header'>MoveBytes</p>
+              <a
+                href='http://movebytes.com'
+                target='_none'
+                className='projects__project--url'
+              >
+                https://movebytes.com
+              </a>
             </div>
-            <a
-              href='http://movebytes.com'
-              target='_none'
-              className='projects__project--url'
-            >
-              https://movebytes.com
-            </a>
 
             <p className='projects__project--description'>
               MoveBytes is a file sharing service that allows users to upload
@@ -127,16 +124,15 @@ class Projects extends Component {
         <div className='projects__project'>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>Steap and Grind</h2>
-              <h3 className='projects__project--sub'>February 2018</h3>
+              <p className='projects__project--header'>Steap and Grind</p>
+              <a
+                href='http://steapandgrind.com'
+                target='_none'
+                className='projects__project--url'
+              >
+                https://steapandgrind.com
+              </a>
             </div>
-            <a
-              href='http://steapandgrind.com'
-              target='_none'
-              className='projects__project--url'
-            >
-              https://steapandgrind.com
-            </a>
 
             <p className='projects__project--description'>
               A local restaurant website taken on as a freelance project. This
@@ -168,16 +164,15 @@ class Projects extends Component {
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>S&J Architects</h2>
-              <h3 className='projects__project--sub'>September 2018</h3>
+              <p className='projects__project--header'>S&J Architects</p>
+              <a
+                href='http://sandjarchitecture.netlify.com'
+                target='_none'
+                className='projects__project--url'
+              >
+                https://sandjarchitecture.netlify.com/
+              </a>
             </div>
-            <a
-              href='http://sandjarchitecture.netlify.com'
-              target='_none'
-              className='projects__project--url'
-            >
-              https://sandjarchitecture.netlify.com/
-            </a>
 
             <p className='projects__project--description'>
               A fully responsive design for a fictional architecture firm
@@ -197,16 +192,15 @@ class Projects extends Component {
         <div className='projects__project'>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
-              <h2 className='projects__project--header'>xchangewax</h2>
-              <h3 className='projects__project--sub'>December 2017</h3>
+              <p className='projects__project--header'>xchangewax</p>
+              <a
+                href='http://xchangewax.netlify.com'
+                target='_none'
+                className='projects__project--url'
+              >
+                https://xchangewax.netlify.com/
+              </a>
             </div>
-            <a
-              href='http://xchangewax.netlify.com'
-              target='_none'
-              className='projects__project--url'
-            >
-              https://xchangewax.netlify.com/
-            </a>
 
             <p className='projects__project--description'>
               This was my first deep-dive into NodeJS. xchangewax was a concept
