@@ -52,7 +52,7 @@
   .contact__split {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 9rem;
+    grid-column-gap: 5rem;
     padding: 1rem;
 
     @media screen and (max-width: 1120px) {

@@ -23,9 +23,8 @@ class Contact extends Component {
           </p>
         </div>
 
-        {/* BLOCK */}
-
         <div className='contact__split'>
+          {/* F O R M */}
           <div className='contact__split--form'>
             <div className='form'>
               <form name='contact' method='POST' data-netlify='true'>
@@ -55,6 +54,8 @@ class Contact extends Component {
               </form>
             </div>
           </div>
+
+          {/* D E T A I L S */}
           <div className='contact__split--details'>
             <div className='details'>
               <div class='details--detail'>

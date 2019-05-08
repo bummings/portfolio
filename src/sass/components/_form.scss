@@ -1,6 +1,9 @@
 .form {
   &__section {
     margin: 2rem 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5.5rem;
   }
 
   &__label {
