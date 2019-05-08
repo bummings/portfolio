@@ -47,7 +47,7 @@ class Splash extends Component {
 
           <div className='landing__code'>
             <span className='lineNumber'>05 &nbsp;</span>
-            <span className='render'>render</span>
+            <span className='variable'>render</span>
             <span className='variable'>()&nbsp;</span>
             <span className='bracket'>{leftCurly}</span>
           </div>
