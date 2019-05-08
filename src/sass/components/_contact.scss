@@ -2,9 +2,6 @@
   background-color: #ddeedd;
   height: 100vh;
   color: $color-black;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-column-gap: 7rem;
   padding: 3rem;
 
   &__header {
@@ -53,10 +50,19 @@
   }
 
   &__form {
-    grid-column: 1;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 9rem;
     padding: 1rem;
-    justify-content: flex-end;
+
+    @media screen and (max-width: 1120px) {
+      grid-template-rows: repeat(2, 1fr);
+    }
+
+    &--form {
+      display: flex;
+      justify-content: flex-end;
+    }
 
     &--section {
       margin: 2rem 0;
