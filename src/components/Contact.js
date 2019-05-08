@@ -25,33 +25,35 @@ class Contact extends Component {
 
         {/* BLOCK */}
 
-        <div className='contact__form'>
-          <div className='contact__form--form'>
-            <form name='contact' method='POST' data-netlify='true'>
-              <div className='contact__form--section'>
-                <label class='contact__form--label'>Name</label>
-                <br />
-                <input class='contact__form--input' type='text' name='name' />
-              </div>
-              <div className='contact__form--section'>
-                <label class='contact__form--label'>E-mail</label>
-                <br />
-                <input class='contact__form--input' type='email' name='email' />
-              </div>
-              <div className='contact__form--section'>
-                <label class='contact__form--label'>Message</label>
-                <br />
-                <textarea class='contact__form--textBox' name='message' />
-              </div>
-              <div className='contact__form--section'>
-                <button class='contact__form--btn' type='submit'>
-                  Send
-                </button>
-              </div>
-            </form>
-          </div>
+        <div className='form'>
+          <form name='contact' method='POST' data-netlify='true'>
+            <div className='form__section'>
+              <label class='form__label'>Name</label>
+              <br />
+              <input class='form__input' type='text' name='name' />
+            </div>
 
-          <div className='contact__form--details'>
+            <div className='form__section'>
+              <label class='form__label'>E-mail</label>
+              <br />
+              <input class='form__input' type='text' name='email' />
+            </div>
+
+            <div className='form__section'>
+              <label class='form__label'>Message</label>
+              <br />
+              <textarea class='form__textBox' name='message' />
+            </div>
+
+            <div className='form__section'>
+              <button class='form__btn' type='submit'>
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+
+        {/* <div className='contact__form--details'>
             <div class='contact__details--detail'>
               <img class='contact__details--icon' src={email} alt='email' />
               <p class='contact__details--text'>hello@bummings.io</p>
@@ -76,7 +78,7 @@ class Contact extends Component {
               <p class='contact__details--text'>/edd.burke</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }
