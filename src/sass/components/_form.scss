@@ -28,6 +28,14 @@
     line-height: 1.7;
     padding: 1.5rem;
     margin-bottom: 0.5rem;
+
+    @media screen and (max-width: 1200px) {
+      width: 30rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 25rem;
+    }
   }
 
   &__textBox {
@@ -41,6 +49,14 @@
     letter-spacing: 0.6px;
     line-height: 1.7;
     padding: 1.5rem;
+
+    @media screen and (max-width: 1200px) {
+      width: 30rem;
+    }
+
+    @media screen and (max-width: 900px) {
+      width: 25rem;
+    }
   }
 
   &__btn {
