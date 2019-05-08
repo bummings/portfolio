@@ -21,7 +21,9 @@ class Projects extends Component {
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--one'>
-            <img src={bonafind} alt='' className='projects__project--img' />
+            <a href='http://bonafind.biz' target='_none'>
+              <img src={bonafind} alt='' className='projects__project--img' />
+            </a>
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
@@ -80,13 +82,17 @@ class Projects extends Component {
             </p>
           </div>
           <div className='projects__project--one'>
-            <img src={eddnotes} alt='' className='projects__project--img' />
+            <a href='http://eddnotes.netlify.com' target='_none'>
+              <img src={eddnotes} alt='' className='projects__project--img' />
+            </a>
           </div>
         </div>
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--one'>
-            <img src={moveBytes} alt='' className='projects__project--img' />
+            <a href='http://movebytes.com' target='_none'>
+              <img src={moveBytes} alt='' className='projects__project--img' />
+            </a>
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
@@ -153,14 +159,18 @@ class Projects extends Component {
             </p>
           </div>
           <div className='projects__project--one'>
-            <img src={steap} alt='' className='projects__project--img' />
+            <a href='http://steapandgrind.com' target='_none'>
+              <img src={steap} alt='' className='projects__project--img' />
+            </a>
           </div>
         </div>
 
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--one'>
-            <img src={sjarc} alt='' className='projects__project--img' />
+            <a href='http://sandjarchitecture.netlify.com' target='_none'>
+              <img src={sjarc} alt='' className='projects__project--img' />
+            </a>
           </div>
           <div className='projects__project--two'>
             <div className='projects__project--top'>
@@ -230,7 +240,9 @@ class Projects extends Component {
             </p>
           </div>
           <div className='projects__project--one'>
-            <img src={xchange} alt='' className='projects__project--img' />
+            <a href='http://xchangewax.netlify.com' target='_none'>
+              <img src={xchange} alt='' className='projects__project--img' />
+            </a>
           </div>
         </div>
       </div>
