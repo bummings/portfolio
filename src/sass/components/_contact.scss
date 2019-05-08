@@ -20,10 +20,10 @@
       @media screen and (max-width: 1850px) {
         font-size: 10rem;
       }
-      @media screen and (max-width: 1475px) {
+      @media screen and (max-width: 1275px) {
         font-size: 8rem;
       }
-      @media screen and (max-width: 1375px) {
+      @media screen and (max-width: 1000px) {
         font-size: 6rem;
       }
     }
@@ -52,14 +52,15 @@
   .contact__split {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 5rem;
+    grid-column-gap: 12rem;
     padding: 1rem;
+
+    @media screen and (max-width: 1250px) {
+      grid-column-gap: 4rem;
+    }
 
     @media screen and (max-width: 1120px) {
       grid-template-rows: repeat(2, 1fr);
-    }
-
-    .contact__split {
     }
   }
 }
