@@ -24,6 +24,10 @@
     align-items: center;
     margin-bottom: 20rem;
 
+    @media screen and (max-width: 1200px) {
+      margin-bottom: 5rem;
+    }
+
     &__headline {
       font-size: 8rem;
       text-transform: uppercase;
