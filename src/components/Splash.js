@@ -168,7 +168,7 @@ class Splash extends Component {
               , or consume my{' '}
               <a
                 class='hi__link'
-                href='http://bummings.io/resume'
+                href='https://raw.githubusercontent.com/bummings/portfolio/master/eddburke.pdf'
                 target='_none'
               >
                 résumé
