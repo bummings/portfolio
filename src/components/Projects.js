@@ -15,7 +15,7 @@ class Projects extends Component {
         <div className='projects--headline'>
           <h1 className='projects--headline__headline'>Projects</h1>
           <p className='projects--headline__sub'>
-            Here's a selection of what I've been working on.
+            <span>Here's a selection of what I've been working on.</span>
           </p>
         </div>
         {/* !!! */}
@@ -33,7 +33,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                http://bonafind.biz
+                <span>http://bonafind.biz</span>
               </a>
             </div>
 
@@ -65,7 +65,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                https://eddnotes.netlify.com/
+                <span>https://eddnotes.netlify.com/</span>
               </a>
             </div>
 
@@ -102,7 +102,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                https://movebytes.com
+                <span>https://movebytes.com</span>
               </a>
             </div>
 
@@ -136,7 +136,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                https://steapandgrind.com
+                <span>https://steapandgrind.com</span>
               </a>
             </div>
 
@@ -180,7 +180,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                https://sandjarchitecture.netlify.com/
+                <span>https://sandjarchitecture.netlify.com/</span>
               </a>
             </div>
 
@@ -208,7 +208,7 @@ class Projects extends Component {
                 target='_none'
                 className='projects__project--url'
               >
-                https://xchangewax.netlify.com/
+                <span>https://xchangewax.netlify.com/</span>
               </a>
             </div>
 
