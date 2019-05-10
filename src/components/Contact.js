@@ -4,7 +4,7 @@ import email from '../assets/email.svg';
 import phone from '../assets/phone.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
-import dribbble from '../assets/dribbble.svg';
+// import dribbble from '../assets/dribbble.svg';
 
 class Contact extends Component {
   render() {

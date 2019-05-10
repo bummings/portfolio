@@ -10,12 +10,15 @@
 
   @media screen and (max-width: 1850px) {
     padding: 0 5rem;
+    padding-top: 0;
   }
   @media screen and (max-width: 1475px) {
     padding: 0 4rem;
+    padding-top: 0;
   }
   @media screen and (max-width: 1375px) {
     padding: 0 1rem;
+    padding-top: 0;
   }
 
   &--headline {
@@ -133,25 +136,6 @@
       font-weight: bold;
       position: relative;
       z-index: 1;
-
-      &--url::before {
-        content: '';
-        position: absolute;
-        z-index: -1;
-        top: 0;
-        bottom: 0;
-        left: -0.25em;
-        right: -0.25em;
-        background-color: hsla(341, 97%, 59%, 0.75);
-        transform-origin: center right;
-        transform: scaleX(0);
-        transition: transform 0.2s ease-in-out;
-      }
-
-      &--url:hover::before {
-        transform: scaleX(1);
-        transform-origin: center left;
-      }
     }
 
     &--description {
@@ -190,4 +174,19 @@ span::before {
 span:hover::before {
   transform: scaleX(1);
   transform-origin: center left;
+}
+
+.projects__project--img:hover {
+  animation: shadow 0.2s forwards;
+}
+
+@keyframes shadow {
+  0% {
+    box-shadow: none;
+  }
+  100% {
+    box-shadow: 0 12px 20px 0 rgba(0, 0, 0, 0.2),
+      0 8px 25px 0 rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+  }
 }
