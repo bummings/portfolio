@@ -18,9 +18,9 @@ class Contact extends Component {
           >
             Get in touch
           </p>
-          <p className='contact__header--invitation'>
+          <span className='contact__header--invitation'>
             Let's build something together- I'd love to work with you.
-          </p>
+          </span>
         </div>
 
         <div className='contact__split'>

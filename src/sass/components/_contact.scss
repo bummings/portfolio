@@ -20,7 +20,7 @@
       font-size: 8rem;
       font-weight: bold;
       text-transform: uppercase;
-      margin: 1rem;
+      margin: 0;
 
       @media screen and (max-width: 1850px) {
         font-size: 8rem;
@@ -35,7 +35,10 @@
 
     &--invitation {
       font-family: $font-primary;
+      font-family: $font-secondary;
       font-size: 2.4rem;
+      border-bottom: 1px solid;
+      padding: 1rem 4rem;
       margin: 0;
 
       @media screen and (max-width: 1850px) {

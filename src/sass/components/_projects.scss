@@ -41,10 +41,10 @@
 
     &__sub {
       margin: 0;
+      font-family: $font-secondary;
       font-size: 2.4rem;
       border-bottom: 1px solid;
       padding: 1rem 4rem;
-      font-family: $font-secondary;
 
       @media screen and (max-width: 1700px) {
         font-size: 1.8rem;
