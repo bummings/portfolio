@@ -16,16 +16,17 @@
     align-items: center;
 
     &--text {
-      font-family: $font-tertiary;
-      font-size: 12rem;
+      font-family: $font-secondary;
+      font-size: 8rem;
+      font-weight: bold;
       text-transform: uppercase;
       margin: 1rem;
 
       @media screen and (max-width: 1850px) {
-        font-size: 10rem;
+        font-size: 8rem;
       }
       @media screen and (max-width: 1275px) {
-        font-size: 8rem;
+        font-size: 7rem;
       }
       @media screen and (max-width: 1000px) {
         font-size: 6rem;
