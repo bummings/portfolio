@@ -74,7 +74,13 @@ class Contact extends Component {
 
               <div class='details__detail'>
                 <img class='details__detail--icon' src={github} alt='github' />
-                <p class='details__detail--text'>/bummings</p>
+                <a
+                  href='http://github.com/bummings'
+                  target='_none'
+                  class='details__detail--text'
+                >
+                  /bummings
+                </a>
               </div>
 
               <div class='details__detail'>
@@ -83,7 +89,13 @@ class Contact extends Component {
                   src={linkedin}
                   alt='linkedin'
                 />
-                <p class='details__detail--text'>/edd.burke</p>
+                <a
+                  href='http://linkedin.com/in/eddburke'
+                  target='_none'
+                  class='details__detail--text'
+                >
+                  /edd.burke
+                </a>
               </div>
             </div>
           </div>

@@ -88,7 +88,7 @@
 
       &__detail {
         display: flex;
-        align-items: flex-start;
+        align-items: center;
         font-family: $font-secondary;
         margin-bottom: 4rem;
 
@@ -100,6 +100,8 @@
         &--text {
           margin-left: 2rem;
           font-size: 2.4rem;
+          text-decoration: none;
+          color: $color-black;
         }
       }
 
