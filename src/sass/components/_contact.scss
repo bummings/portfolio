@@ -1,12 +1,12 @@
 .contact {
   background-color: #ddeedd;
-  height: 100vh;
+  height: 100%;
+  color: $color-black;
+  padding: 18rem;
 
   @media screen and (max-width: 1000px) {
-    height: 100%;
+    padding: 0;
   }
-  color: $color-black;
-  padding: 3rem;
 
   &__header {
     grid-column: 1 / -1;
@@ -89,6 +89,7 @@
       display: flex;
       flex-direction: column;
       margin: 0 auto;
+      padding-top: 5rem;
 
       &__detail {
         display: flex;
@@ -99,6 +100,7 @@
         &--icon {
           height: 64px;
           width: 64px;
+          margin-bottom: 2rem;
 
           @media screen and (max-width: 1200px) {
             height: 48px;

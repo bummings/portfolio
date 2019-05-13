@@ -56,10 +56,15 @@
       padding: 1rem 4rem;
 
       @media screen and (max-width: 1700px) {
-        font-size: 1.8rem;
       }
       @media screen and (max-width: 1200px) {
+        font-size: 3rem;
+      }
+      @media screen and (max-width: 750px) {
         font-size: 2rem;
+      }
+      @media screen and (max-width: 450px) {
+        font-size: 1.5rem;
       }
     }
   }
