@@ -57,7 +57,7 @@
     }
   }
 
-  .contact__split {
+  &__split {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 12rem;
@@ -81,8 +81,27 @@
       }
     }
 
-    &--details {
+    .details {
       grid-column: 2;
+      display: flex;
+      flex-direction: column;
+
+      &__detail {
+        display: flex;
+        align-items: flex-start;
+        font-family: $font-secondary;
+        margin-bottom: 4rem;
+
+        &--icon {
+          height: 64px;
+          width: 64px;
+        }
+
+        &--text {
+          margin-left: 2rem;
+          font-size: 2.4rem;
+        }
+      }
 
       @media screen and (max-width: 1000px) {
         grid-column: 1;

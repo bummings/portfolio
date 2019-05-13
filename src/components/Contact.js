@@ -58,24 +58,32 @@ class Contact extends Component {
           {/* D E T A I L S */}
           <div className='contact__split--details'>
             <div className='details'>
-              <div class='details--detail'>
-                <img class='details--icon' src={email} alt='email' />
-                <p class='details--text'>hello@bummings.io</p>
+              <div class='details__detail'>
+                <img class='details__detail--icon' src={email} alt='email' />
+                <p class='details__detail--text'>hello@bummings.io</p>
               </div>
 
-              <div class='details--detail'>
-                <img class='details--icon' src={phone} alt='telephone' />
-                <p class='details--text'>(215) 971-7458</p>
+              <div class='details__detail'>
+                <img
+                  class='details__detail--icon'
+                  src={phone}
+                  alt='telephone'
+                />
+                <p class='details__detail--text'>(215) 971-7458</p>
               </div>
 
-              <div class='details--detail'>
-                <img class='details--icon' src={github} alt='github' />
-                <p class='details--text'>/bummings</p>
+              <div class='details__detail'>
+                <img class='details__detail--icon' src={github} alt='github' />
+                <p class='details__detail--text'>/bummings</p>
               </div>
 
-              <div class='details--detail'>
-                <img class='details--icon' src={linkedin} alt='linkedin' />
-                <p class='details--text'>/edd.burke</p>
+              <div class='details__detail'>
+                <img
+                  class='details__detail--icon'
+                  src={linkedin}
+                  alt='linkedin'
+                />
+                <p class='details__detail--text'>/edd.burke</p>
               </div>
             </div>
           </div>
