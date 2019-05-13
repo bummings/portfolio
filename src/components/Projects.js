@@ -18,6 +18,7 @@ class Projects extends Component {
             <span>Here's a selection of what I've been working on.</span>
           </p>
         </div>
+
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--one'>
@@ -55,6 +56,7 @@ class Projects extends Component {
             </p>
           </div>
         </div>
+
         {/* !!! */}
         <div className='projects__project'>
           <div className='projects__project--two'>

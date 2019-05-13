@@ -37,6 +37,10 @@
       margin: 0;
       padding-top: 10rem;
       font-family: $font-secondary;
+
+      @media screen and (max-width: 450px) {
+        font-size: 3rem;
+      }
     }
 
     &__sub {
@@ -67,6 +71,11 @@
     align-items: flex-start;
     margin-bottom: 18rem;
 
+    @media screen and (max-width: 650px) {
+      display: flex;
+      flex-direction: column;
+    }
+
     &--one {
       grid-column: span 2;
       grid-row: span 2;
@@ -84,6 +93,10 @@
         grid-column: span 4;
         grid-row: 2;
         padding: 0 2rem;
+
+        @media screen and (max-width: 650px) {
+          order: 1;
+        }
       }
     }
 
@@ -111,6 +124,10 @@
       @media screen and (max-width: 1700px) {
         font-size: 4rem;
       }
+
+      @media screen and (max-width: 600px) {
+        font-size: 2rem;
+      }
     }
 
     &--sub {
@@ -137,6 +154,10 @@
       font-weight: bold;
       position: relative;
       z-index: 1;
+
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
     }
 
     &--description {

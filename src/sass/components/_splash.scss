@@ -27,6 +27,10 @@
   @media screen and (max-width: 1375px) {
     font-size: 4.2rem;
   }
+
+  @media screen and (max-width: 650px) {
+    display: none;
+  }
 }
 
 .two {
@@ -37,4 +41,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  @media screen and (max-width: 650px) {
+    grid-column: span 4;
+  }
 }

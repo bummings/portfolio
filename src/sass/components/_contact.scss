@@ -60,7 +60,7 @@
   &__split {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 12rem;
+    // grid-column-gap: 12rem;
     padding: 1rem;
     justify-items: center;
 
@@ -96,6 +96,10 @@
         &--icon {
           height: 64px;
           width: 64px;
+
+          @media screen and (max-width: 500px) {
+            display: none;
+          }
         }
 
         &--text {
