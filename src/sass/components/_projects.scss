@@ -44,6 +44,7 @@
 
       @media screen and (max-width: 450px) {
         font-size: 3rem;
+        padding-top: 3rem;
       }
     }
 
@@ -77,6 +78,10 @@
 
     @media screen and (max-width: 1200px) {
       margin-bottom: 0;
+    }
+
+    @media screen and (max-width: 800px) {
+      margin-bottom: 10rem;
     }
 
     @media screen and (max-width: 650px) {
@@ -136,7 +141,7 @@
       @media screen and (max-width: 650px) {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        // width: 100%;
       }
 
       @media screen and (max-width: 600px) {

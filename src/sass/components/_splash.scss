@@ -28,7 +28,7 @@
     font-size: 4.2rem;
   }
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 675px) {
     display: none;
   }
 }
@@ -42,7 +42,7 @@
   justify-content: center;
   align-items: center;
 
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 675px) {
     grid-column: span 4;
   }
 }
