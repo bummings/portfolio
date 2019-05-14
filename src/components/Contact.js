@@ -29,25 +29,25 @@ class Contact extends Component {
             <div className='form'>
               <form name='contact' method='POST' data-netlify='true'>
                 <div className='form__section'>
-                  <label class='form__label'>Name</label>
+                  <label className='form__label'>Name</label>
                   <br />
-                  <input class='form__input' type='text' name='name' />
+                  <input className='form__input' type='text' name='name' />
                 </div>
 
                 <div className='form__section'>
-                  <label class='form__label'>E-mail</label>
+                  <label className='form__label'>E-mail</label>
                   <br />
-                  <input class='form__input' type='text' name='email' />
+                  <input className='form__input' type='text' name='email' />
                 </div>
 
                 <div className='form__section'>
-                  <label class='form__label'>Message</label>
+                  <label className='form__label'>Message</label>
                   <br />
-                  <textarea class='form__textBox' name='message' />
+                  <textarea className='form__textBox' name='message' />
                 </div>
 
                 <div className='form__section'>
-                  <button class='form__btn' type='submit'>
+                  <button className='form__btn' type='submit'>
                     Send
                   </button>
                 </div>
@@ -58,41 +58,49 @@ class Contact extends Component {
           {/* D E T A I L S */}
           <div className='contact__split--details'>
             <div className='details'>
-              <div class='details__detail'>
-                <img class='details__detail--icon' src={email} alt='email' />
-                <p class='details__detail--text'>hello@bummings.io</p>
+              <div className='details__detail'>
+                <img
+                  className='details__detail--icon'
+                  src={email}
+                  alt='email'
+                />
+                <p className='details__detail--text'>hello@bummings.io</p>
               </div>
 
-              <div class='details__detail'>
+              <div className='details__detail'>
                 <img
-                  class='details__detail--icon'
+                  className='details__detail--icon'
                   src={phone}
                   alt='telephone'
                 />
-                <p class='details__detail--text'>(215) 971-7458</p>
+                <p className='details__detail--text'>(215) 971-7458</p>
               </div>
 
-              <div class='details__detail'>
-                <img class='details__detail--icon' src={github} alt='github' />
+              <div className='details__detail'>
+                <img
+                  className='details__detail--icon'
+                  src={github}
+                  alt='github'
+                />
                 <a
                   href='http://github.com/bummings'
                   target='_none'
-                  class='details__detail--text'
+                  className='details__detail--text'
                 >
                   /bummings
                 </a>
               </div>
 
-              <div class='details__detail'>
+              <div className='details__detail'>
                 <img
-                  class='details__detail--icon'
+                  className='details__detail--icon'
                   src={linkedin}
                   alt='linkedin'
                 />
                 <a
                   href='http://linkedin.com/in/eddburke'
                   target='_none'
-                  class='details__detail--text'
+                  className='details__detail--text'
                 >
                   /edd.burke
                 </a>

@@ -151,7 +151,7 @@ class Splash extends Component {
             <p className='hi__paragraph'>
               You can analyze me on{' '}
               <a
-                class='hi__link'
+                className='hi__link'
                 href='http://github.com/bummings'
                 target='_none'
               >
@@ -159,7 +159,7 @@ class Splash extends Component {
               </a>
               , microscope me on{' '}
               <a
-                class='hi__link'
+                className='hi__link'
                 href='http://linkedin.com/in/eddburke'
                 target='_none'
               >
@@ -167,7 +167,7 @@ class Splash extends Component {
               </a>
               , or consume my{' '}
               <a
-                class='hi__link'
+                className='hi__link'
                 href='https://raw.githubusercontent.com/bummings/portfolio/master/eddburke.pdf'
                 target='_none'
               >
