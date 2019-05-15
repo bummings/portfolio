@@ -146,14 +146,6 @@ class Splash extends Component {
           </div>
         </div>
         <div className='two'>
-          <div className='two__social'>
-            <img src={github} alt='' className='two__social--icon' />
-            <img src={linkedin} alt='' className='two__social--icon' />
-            <img src={twitter} alt='' className='two__social--icon' />
-            <img src={behance} alt='' className='two__social--icon' />
-            <img src={instagram} alt='' className='two__social--icon' />
-            <img src={soundcloud} alt='' className='two__social--icon' />
-          </div>
           <div className='hi'>
             <h1 className='hi__header'>Hi! I'm Edd Burke.</h1>
             <p className='hi__paragraph'>

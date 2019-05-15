@@ -1,7 +1,6 @@
 .hi {
   padding: 3rem 12rem 0;
   color: $color-black;
-  // border: 5px solid red;
 
   @media screen and (max-width: 1375px) {
     padding: 1rem 4rem;
@@ -14,7 +13,6 @@
   @media screen and (max-width: 800px) {
     display: flex;
     flex-direction: column;
-    // align-items: center;
     justify-content: center;
   }
 

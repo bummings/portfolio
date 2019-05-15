@@ -41,19 +41,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // border: 13px solid black;
-
-  &__social {
-    // border: 2px solid yellowgreen;
-    display: flex;
-    margin-top: 0 auto;
-    align-self: flex-end;
-    &--icon {
-      height: 36px;
-      width: 36px;
-      margin-right: 1.2rem;
-    }
-  }
 
   @media screen and (max-width: 800px) {
     grid-column: span 4;
