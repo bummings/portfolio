@@ -1,5 +1,12 @@
 import React, { Component } from 'react';
 
+import github from '../assets/social_icons/github.svg';
+import linkedin from '../assets/social_icons/linkedin.svg';
+import twitter from '../assets/social_icons/twitter.svg';
+import behance from '../assets/social_icons/behance.svg';
+import soundcloud from '../assets/social_icons/soundcloud.svg';
+import instagram from '../assets/social_icons/instagram.svg';
+
 let leftBracket = '<';
 let rightBracket = '>';
 let leftBracketEnd = '</';
@@ -10,6 +17,7 @@ class Splash extends Component {
   render() {
     return (
       <div className='splash'>
+        // split out separate components here, man
         <div className='one'>
           <div className='landing__code'>
             <span className='lineNumber'>01</span>
