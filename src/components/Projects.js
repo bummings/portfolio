@@ -206,7 +206,7 @@ class Projects extends Component {
             <div className='projects__project--top'>
               <p className='projects__project--header'>xchangewax</p>
               <a
-                href='http://xchangewax.netlify.com'
+                href='https://lit-bastion-83150.herokuapp.com/'
                 target='_none'
                 className='projects__project--url'
               >
