@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import avatar from '../assets/edd_avatar.png'
+
 let leftBracket = '<';
 let rightBracket = '>';
 let leftBracketEnd = '</';
@@ -139,13 +141,20 @@ class Splash extends Component {
           </div>
         </div>
         <div className='two'>
+        <div className="avatar">
+        <img
+                  className='avatar'
+                  src={avatar}
+                  alt='user avatar'
+                />
+        </div>
           <div className='hi'>
             <h1 className='hi__header'>Hi! I'm Edd Burke.</h1>
 
 
 
             <p className='hi__paragraph'>
-              I'm a developer, designer and educator from Philadelphia.
+              I'm a developer, designer and educator from Philadelphia, PA.
             </p>
             <p className='hi__paragraph'>
             I care deeply about functional web technology and leveraging it to make our 21st century experience better for everyone.

@@ -5,6 +5,14 @@
   align-items: center;
 }
 
+
+.avatar {
+  width: 300px;
+  height: 300px;
+  align-self: flex-start;
+  padding-left: 5rem;
+}
+
 .one {
   height: 100vh;
   grid-column: span 2;
