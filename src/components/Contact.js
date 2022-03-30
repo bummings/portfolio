@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 
 import email from '../assets/email.svg';
-import phone from '../assets/phone.svg';
 import github from '../assets/github.svg';
 import linkedin from '../assets/linkedin.svg';
 

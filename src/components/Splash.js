@@ -1,12 +1,5 @@
 import React, { Component } from 'react';
 
-import github from '../assets/social_icons/github.svg';
-import linkedin from '../assets/social_icons/linkedin.svg';
-import twitter from '../assets/social_icons/twitter.svg';
-import behance from '../assets/social_icons/behance.svg';
-import soundcloud from '../assets/social_icons/soundcloud.svg';
-import instagram from '../assets/social_icons/instagram.svg';
-
 let leftBracket = '<';
 let rightBracket = '>';
 let leftBracketEnd = '</';
