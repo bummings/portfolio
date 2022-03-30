@@ -19,7 +19,7 @@ class Contact extends Component {
             Get in touch
           </p>
           <span className='contact__header--invitation'>
-            Let's build something together- I'd love to work with you.
+            Let's build something together.
           </span>
         </div>
 
@@ -67,14 +67,7 @@ class Contact extends Component {
                 <p className='details__detail--text'>hello@bummings.io</p>
               </div>
 
-              <div className='details__detail'>
-                <img
-                  className='details__detail--icon'
-                  src={phone}
-                  alt='telephone'
-                />
-                <p className='details__detail--text'>(215) 971-7458</p>
-              </div>
+              
 
               <div className='details__detail'>
                 <img

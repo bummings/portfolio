@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Splash from './components/Splash';
-import Projects from './components/Projects';
+// import Projects from './components/Projects';
 import Contact from './components/Contact';
 
 // import Footer from './components/Footer';
@@ -11,7 +11,7 @@ class App extends Component {
     return (
       <div className='App'>
         <Splash />
-        <Projects />
+        {/* <Projects /> */}
         <Contact />
         {/* <Footer /> */}
       </div>
