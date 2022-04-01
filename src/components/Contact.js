@@ -57,44 +57,44 @@ class Contact extends Component {
           {/* D E T A I L S */}
           <div className='contact__split--details'>
             <div className='details'>
-              <div className='details__detail'>
+              <div className='details--detail'>
                 <img
-                  className='details__detail--icon'
+                  className='details--detail__icon'
                   src={email}
                   alt='email'
                 />
-                <p className='details__detail--text'>hello@bummings.io</p>
+                <p className='details--detail__text'>hello@bummings.io</p>
               </div>
 
               
 
-              <div className='details__detail'>
+              <div className='details--detail'>
                 <img
-                  className='details__detail--icon'
+                  className='details--detail__icon'
                   src={github}
                   alt='github'
                 />
                 <a
                   href='http://github.com/bummings'
                   target='_none'
-                  className='details__detail--text'
+                  className='details--detail__text'
                 >
                   /bummings
                 </a>
               </div>
 
-              <div className='details__detail'>
+              <div className='details--detail'>
                 <img
-                  className='details__detail--icon'
+                  className='details--detail__icon'
                   src={linkedin}
                   alt='linkedin'
                 />
                 <a
                   href='http://linkedin.com/in/eddburke'
                   target='_none'
-                  className='details__detail--text'
+                  className='details--detail__text'
                 >
-                  /edd.burke
+                  /in/eddburke/
                 </a>
               </div>
             </div>
