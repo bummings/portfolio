@@ -1,8 +1,12 @@
 .contact {
   background-color: #ddeedd;
-  height: 100%;
+  height: 80vh;
   color: $color-black;
   padding: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
   @media screen and (max-width: 1000px) {
     padding: 0;
@@ -19,12 +23,11 @@
 
     &--text {
       font-family: $font-secondary;
-      font-size: 8rem;
       font-weight: bold;
       margin: 0;
 
       @media screen and (max-width: 1850px) {
-        font-size: 8rem;
+        font-size: 12rem;
       }
       @media screen and (max-width: 1275px) {
         font-size: 7rem;
