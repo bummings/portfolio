@@ -1,16 +1,16 @@
 .details {
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-top: 8rem;
+  flex-direction: row;
+  justify-content: center;
   margin-left: 5rem;
 
   &--detail {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-bottom: 3rem;
+    margin: 4rem;
 
     @media screen and (max-width: 1000px) {
       justify-content: flex-start;
@@ -18,8 +18,8 @@
     }
     
     &__icon {
-      height: 90px;
-      width: 90px;
+      height: 120px;
+      width: 120px;
       filter: invert(0%) sepia(2%) saturate(36%) hue-rotate(3deg) brightness(98%)
         contrast(106%);
       margin-right: 2.5rem;
@@ -29,6 +29,8 @@
   
     &__text {
       font-size: 2.25rem;
+      font-family: $font-code;
+      font-style: italic;
       grid-column: 2;
       letter-spacing: 0.8px;
   
