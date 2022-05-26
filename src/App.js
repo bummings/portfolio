@@ -1,19 +1,18 @@
-import React, { Component } from 'react';
-import Splash from './components/Splash';
+import React, { Component } from "react";
+import Splash from "./components/Splash";
 // import Projects from './components/Projects';
-import Contact from './components/Contact';
+import Contact from "./components/Contact";
 
 // import Footer from './components/Footer';
-import './App.scss';
+import "./App.scss";
 
 class App extends Component {
   render() {
     return (
-      <div className='App'>
+      <div className="App">
         <Splash />
         {/* <Projects /> */}
         <Contact />
-        {/* <Footer /> */}
       </div>
     );
   }
