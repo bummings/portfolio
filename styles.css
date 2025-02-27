@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #d6e866;
+    --main-bg-color: #E2B06D;
     --text-color: #000;
     --link-color: #000;
     --link-hover-color: #555;
@@ -24,7 +24,6 @@ body {
     max-width: 800px;
     margin: 0 auto;
     padding: 5% 5%;
-    border: 20px solid black;
 }
 
 h1 {
