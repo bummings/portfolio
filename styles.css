@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #e1a75c;
+    --main-bg-color: #d8cbbbfc;
     --text-color: #000;
     --link-color: #000;
     --link-hover-color: #1f9ebbd7;
@@ -15,7 +15,7 @@ body {
     font-family: IBM Plex Mono, -system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--main-bg-color);
     color: var(--text-color);
-    line-height: 1.6;
+    line-height: 1.5;
     min-height: 100vh;
 }
 
